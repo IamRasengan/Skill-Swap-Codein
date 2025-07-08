@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/IamRasengan/Skill-Swap-Codein/static/css/main.b7291b6c.css",
+    "main.js": "/IamRasengan/Skill-Swap-Codein/static/js/main.7ead4e90.js",
+    "static/js/453.4df93de6.chunk.js": "/IamRasengan/Skill-Swap-Codein/static/js/453.4df93de6.chunk.js",
+    "index.html": "/IamRasengan/Skill-Swap-Codein/index.html",
+    "main.b7291b6c.css.map": "/IamRasengan/Skill-Swap-Codein/static/css/main.b7291b6c.css.map",
+    "main.7ead4e90.js.map": "/IamRasengan/Skill-Swap-Codein/static/js/main.7ead4e90.js.map",
+    "453.4df93de6.chunk.js.map": "/IamRasengan/Skill-Swap-Codein/static/js/453.4df93de6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7291b6c.css",
+    "static/js/main.7ead4e90.js"
+  ]
+}
