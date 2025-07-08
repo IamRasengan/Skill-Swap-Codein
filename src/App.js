@@ -1,17 +1,8 @@
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import { HashRouter } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
+import './App.css'; // if you're using styles
+// You can include Tailwind setup or other CSS imports here if needed
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <HashRouter>
-      <App />
-    </HashRouter>
-  </React.StrictMode>
-);
-
+// Then paste your entire SkillSwapPlatform component below this line:
 const SkillSwapPlatform = () => {
   const [currentUser, setCurrentUser] = useState(null);
   const [users, setUsers] = useState([]);
@@ -819,4 +810,4 @@ const CreateProfilePage = ({ onCreateProfile, onBack, categories }) => {
   );
 };
 
-export default SkillSwapPlatform
+export default SkillSwapPlatform;
