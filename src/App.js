@@ -1,4 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import { HashRouter } from 'react-router-dom';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <HashRouter>
+      <App />
+    </HashRouter>
+  </React.StrictMode>
+);
 
 const SkillSwapPlatform = () => {
   const [currentUser, setCurrentUser] = useState(null);
